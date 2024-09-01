@@ -1,0 +1,78 @@
+.game-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-field {
+    stroke: black;
+    stroke-width: 2px;
+    position: relative;
+    fill: #f4f96d
+}
+
+.ball {
+    fill: #dd1a1a;
+}
+
+.left-rocket {
+    fill: #4ea016;
+}
+
+.right-rocket {
+    fill: #174ebd;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font: bold 35px Helvetica, Arial, sans-serif;
+    color: #511b1b;
+    border: solid rgb(49, 45, 45) 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d2d1d1;
+}
+
+.btn:hover {
+    background-color: #a6a6a6;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.score-text {
+    font: bold 40px Helvetica, Arial, sans-serif;
+    fill: black;
+}
+
+.timer {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+.countdown-text {
+    font: 35px Helvetica, Arial, sans-serif;
+}
+
+.main-area {
+    width: 600px;
+    height: 400px;
+    border: solid black 2px;
+    position: relative;
+    background-color: #f4f96d
+}
